@@ -29,7 +29,7 @@ namespace Count_Vowels
             int iTotal = 0;
             var szVowels = new HashSet<char> { 'a', 'e', 'i', 'o', 'u' };
 
-            string szSentence = TextAreaVowels;
+            string szSentence = TextAreaVowels.ToLower();
 
             for (int i = 0; i < szSentence.Length; i++)
             {
